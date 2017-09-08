@@ -1,0 +1,118 @@
+{% load static %}
+<!DOCTYPE html>
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <title>Fixed Top Navbar Example for Bootstrap</title>
+
+    {% include "head_css.html" %}
+    
+  </head>
+  <body>
+
+
+  {% include "navbar.html" %}
+
+
+  <style>
+    
+  </style>
+  
+    <div class="jumbotron ">
+    <div class="container">
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="row">
+      <div class="col-sm-6">
+
+        <h1>Semillero Redtis</h1>
+        
+        <p>Django  es un framework para aplicaciones web gratuito y open source, escrito en Python. Lo interesante es que hace el desarrollo de aplicaciones web divertido.</p>
+        <p>
+          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">Unete a nosotros&raquo;</a>
+        </p>
+      </div>
+       <div class='col-sm-6' style='background-color:black:width580;height:355px;'><iframe width="580" height="355" src="https://www.youtube.com/embed/a6L5J7WcUpo" frameborder="0" allowfullscreen></iframe></div>
+
+
+    </div>
+    </div> <!-- /container -->
+
+    </div>
+
+
+    {% include "colum.html" %}
+
+
+   <!--<div class="container-fluid">
+    <div class="jumbotron ">
+      <div class="row">
+        <div id="imgFooter" class="col-sm-6">
+           <div><img src="{% static "img/robot.jpeg" %}" id="imagen" /></div>
+          </div>
+        </div>
+
+      </div>
+      
+    </div>-->
+    
+<!--<br><br><br><br>
+<div class="container-fluid" style="height: 100px;">
+<div class="row">
+  <div class="col-sm-6 col-lg-12 col-md-12 col-sm-12 col-xs-12" style="height: 200px">
+      <center><img src="{% static "img/robot.jpeg" %}" class="imagen" /></center>
+     <center><h5><p>Imnovacion</p></h5></center>
+  </div>
+</div>
+</div>-->
+
+
+
+<!--Ha partir de aqui creo codigo limpio para el container-fuid-->
+<!--<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-6"></div>  
+    <p>Tienes una idea</p>
+  </div>
+   
+</div>-->
+
+<!--&bnsp;-->
+<br><br><br>
+<div id="letras">
+  <div class="col-sm-6">
+  <p>
+ Tiene
+   <strong>Un</strong>
+  <br>
+   <strong>Proyecto? Una Idea?</strong>
+</div>
+</div>
+
+
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="{% static 'js/bootstrap.min.js' %}" ></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="{% static 'js/ie10-viewport-bug-workaround.js' %}"></script>
+   
+  </body>
+
+
+
+</html>
